@@ -1,0 +1,2 @@
+# AI_STUDY_PACK_GENRATOR
+Ai_study_pack_genrator
