@@ -20,6 +20,9 @@ def get_api_key():
     except Exception:
         return None
 
+api_key = get_api_key()
+client = Groq(api_key=api_key)
+
 
 st.title("📚 AI Personalized Study Pack Generator")
 st.caption("Planning → Content → Assessment → Review → Refinement")
